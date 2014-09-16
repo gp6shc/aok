@@ -9,22 +9,27 @@
 	height:110px;
 	position: relative;
 	border-bottom:1px solid #F7F7F7;
-	margin-bottom:15px;
 }
 .logo {
 	position:absolute;
 	left:0px;
 	bottom:10px;
 }
+.about {
+	background-color: #f9f9f9;
+	margin: 0 0 35px 0;
+	padding: 20px;
+	
+	p {
+		font-size: 16px;
+	}
+}
 #askbar {
-	height:83px;
-	background-color: #F7F7F7;
-	background-image: url(img/stripe-bg.png);
-	border-radius: 5px;
 	margin-bottom:25px;
+	width: 288px;
 }
 .ask {
-	float: left;
+	text-align: center;	
 }
 .searchf {
 	float: right;
@@ -88,19 +93,19 @@
 	background: #0095cd;
 	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
 	background: -moz-linear-gradient(top, #00adee, #0078a5);
- filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
 }
 .topblue:hover {
 	background: #007ead;
 	border: solid 1px #0076a3;
 	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
 	background: -moz-linear-gradient(top, #0095cc, #00678e);
- filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
 }
 .topblue:active {
 	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
 	background: -moz-linear-gradient(top, #0078a5, #00adee);
- filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
 }
 .loginbox {
 	font-size: 12px;
@@ -171,10 +176,10 @@
 	margin-bottom:20px;
 }
 .question {
-	border-bottom:1px solid #F7F7F7;
-	margin-bottom:15px;
-	max-width:630px;
-	min-height:70px;
+	margin-bottom: 20px;
+	max-width: 630px;
+	min-height: 64px;
+	border-bottom: 1px solid #DADADA;
 }
 .questionmain {
 	margin-left:60px;
@@ -195,7 +200,7 @@
 	color: #777777;
 }
 .questionnumber {
-	background-image: url(img/bubble-bg.png);
+	background-image: url(../img/bubble-bg.png);
 	background-repeat: no-repeat;
 	color:white;
 	width:50px;
