@@ -1,0 +1,96 @@
+/* Responsive*/
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+/* Portrait Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+ #container {
+ width:740px;
+}
+ #content {
+max-width:400px;
+}
+ .searchinput {
+ width:140px;
+}
+ .askinput {
+ width:300px;
+}
+ .topbutton {
+}
+ .footerwidget {
+ width:230px;
+ margin-right:25px;
+}
+ .question {
+ max-width:420px;
+}
+}
+
+
+
+/* Landscape Mobiles */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ #container {
+ width:420px;
+}
+ .askinput {
+ width:275px;
+}
+ .topbutton {
+ margin:0px;
+}
+ .footerwidget {
+ width:100%;
+ float: inherit;
+}
+}
+
+
+
+/*  Portrait Mobiles */
+
+@media only screen and (max-width: 767px) {
+ #container {
+ width:290px;
+}
+ #navbar ul {
+ display: none;
+}
+ #navbar select {
+ display: inline-block;
+position:absolute;
+top:20px;
+left:10px;
+width:95%
+}
+ #navbar {
+ position:relative;
+}
+ .askinput {
+ width:150px;
+}
+ .topbutton {
+ margin:0px;
+}
+ .searchf {
+ display:none;
+}
+ #content {
+ float: inherit;
+ width:100%;
+}
+ .questiontitle {
+ font-size: 16px;
+}
+ #sidebar {
+ float: inherit;
+ width:100%;
+}
+ .questionmeta li {
+ display: none;
+}
+}

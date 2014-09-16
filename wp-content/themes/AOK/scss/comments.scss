@@ -1,0 +1,246 @@
+/* Comments */
+.voting {
+	float:left;
+}
+.vote {
+	width:25px;
+	height:20px;
+	display:block;
+}
+.voting li {
+	display:block;
+	width:25px;
+	list-style-type:none;
+	float:left;
+	text-align:center;
+	line-height:20px;
+	font-weight:bold;
+}
+.voting li a {
+	width:20px;
+	background-color:#333333;
+	color:white;
+	-moz-border-radius:25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+.voting li a:hover {
+	background-color:#333333;
+}
+.negative {
+	color:#CCCCCC;
+}
+.negative .comment-author {
+	color:#CCCCCC;
+}
+.negative .wpanswerstuff {
+	color:#CCCCCC;
+}
+.negative .avatar {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+.best-answer {
+	background-color:#FFFFD9;
+	padding:10px;
+	background-image:url(img/bestanswer-button.png);
+	background-repeat:no-repeat;
+	background-position:top 10px right 10px;
+}
+#comments {
+}
+.commentheading {
+	float:left;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top:15px;
+}
+.leavecomment {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top:15px;
+	border-bottom:3px solid #F7F7F7;
+	margin-bottom:25px;
+	padding-bottom:10px;
+}
+.comments ol {
+}
+#commentsform {
+	padding-right:10px;
+	position:relative;
+	margin-bottom:0px;
+}
+#comments p {
+}
+.commentstop {
+	margin-top:40px;
+	border-bottom:3px solid #F7F7F7;
+	height:60px;
+	padding-top:10px;
+}
+.comment {
+	padding-bottom:10px;
+}
+.wpanswerstuff {
+	margin-left:55px;
+	margin-bottom:-5px;
+}
+.wpanswerstuff li {
+	display:inline;
+	list-style-type:none;
+	margin-right:10px;
+	font-size:11px;
+}
+.wpanswerstuff a {
+	color:#B9B9B9;
+}
+.wpanswerstuff a:hover {
+	color: #006CFF;
+}
+.avatar {
+	float:left;
+	margin-right:10px;
+	-moz-border-radius:25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	border:0px;
+	padding:0px;
+}
+.comment-author {
+	font-size: 12px;
+	color:#010101;
+}
+.comment-author a {
+	border-bottom:0px;
+	color:#000000;
+}
+.bypostauthor {
+}
+.comment-meta {
+	font-size: 11px;
+}
+.comment-meta a {
+	border-bottom:0px;
+}
+.comment-meta a:visited {
+	border-bottom:0px;
+}
+.comment-body {
+	margin-left:55px;
+}
+.comment-body p {
+	margin-top:10px;
+	line-height:20px;
+}
+.comment li {
+	margin-top:20px;
+}
+.comment {
+	list-style-type:none;
+}
+.children ul {
+}
+.depth-1 {
+	margin-top:20px;
+}
+.depth-2 {
+	margin-top:20px;
+	margin-left:10%;
+}
+.depth-3 {
+	margin-top:20px;
+	margin-left:10%;
+}
+#comments .comment:last-child.depth-2 {
+}
+#comments .comment:first-child.depth-2 {
+}
+#comments .comment:last-child.depth-3 {
+}
+.comment-author-admin {
+}
+#comments ul.children {
+}
+.reply {
+	float: right;
+	position:relative;
+	border-bottom:1px solid #ECECEC;
+	width:100%;
+	margin-bottom:25px;
+	padding-bottom:25px;
+}
+.comment-reply-link {
+	display: block;
+	background-color: #464646;
+	color:white;
+	border:0px;
+	font-size: 11px;
+	padding:1px 10px;
+	width:35px;
+	text-align:center;
+	float:right;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+a.comment-reply-link {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top, #fff, #ededed);
+ filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+a.comment-reply-link:hover {
+	color: #606060;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top, #fff, #dcdcdc);
+ filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+a.comment-reply-link:active {
+	color: #606060;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top, #ededed, #fff);
+ filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+.commentinput {
+	width:50%;
+	margin-bottom:20px;
+}
+.commentbox {
+	width:98%;
+	height:150px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.answerarea {
+	background-image:url(img/stripe-bg.png);
+	background-repeat:repeat;
+	padding:15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.commentinfo {
+	font-size: 11px;
+	margin-top:20px;
+}
+.commentsubmit {
+	margin-top:20px;
+	display: block;
+	background-color: #464646;
+	color:white;
+	border:0px;
+	font-size: 11px;
+	padding:5px 15px;
+}
+.commentsubmit:hover {
+	background-color: #5E5E5E;
+	cursor: pointer;
+}
+.cancelcomment {
+	margin-bottom:10px;
+}
+.loggedinauthor {
+}

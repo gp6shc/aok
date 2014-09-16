@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemeSoft\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-21 13:43-0000\n"
+"PO-Revision-Date: 2012-06-21 13:43-0000\n"
+"Last-Translator: ThemeFurnace <hello@themefurnace.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ThemeSoft/404.php:2
+msgid "404 - Nothing Found"
+msgstr ""
+
+#: ../ThemeSoft/404.php:12
+msgid "Nothing found for this page."
+msgstr ""
+
+#: ../ThemeSoft/archive-portfolio.php:6
+#: ../ThemeSoft/index.php:69
+msgid "Our Portfolio &raquo;"
+msgstr ""
+
+#: ../ThemeSoft/archive-portfolio.php:7
+#: ../ThemeSoft/index.php:70
+msgid "Check out a selection of our work"
+msgstr ""
+
+#: ../ThemeSoft/archive-portfolio.php:15
+#: ../ThemeSoft/index.php:79
+msgid "Posted in:"
+msgstr ""
+
+#: ../ThemeSoft/archive.php:14
+#: ../ThemeSoft/author.php:6
+#: ../ThemeSoft/blog.php:12
+#: ../ThemeSoft/category.php:6
+#: ../ThemeSoft/search.php:6
+msgid "Last Updated"
+msgstr ""
+
+#: ../ThemeSoft/author.php:5
+msgid "Author Archives"
+msgstr ""
+
+#: ../ThemeSoft/blog.php:11
+#: ../ThemeSoft/index.php:94
+msgid "Latest News &raquo;"
+msgstr ""
+
+#: ../ThemeSoft/category.php:5
+msgid "Category Archives"
+msgstr ""
+
+#: ../ThemeSoft/comments.php:6
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../ThemeSoft/comments.php:20
+msgid "Comments are closed."
+msgstr ""
+
+#: ../ThemeSoft/comments.php:30
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../ThemeSoft/comments.php:45
+msgid "Logged in as"
+msgstr ""
+
+#: ../ThemeSoft/comments.php:45
+msgid "Logout"
+msgstr ""
+
+#: ../ThemeSoft/comments.php:49
+msgid "Your Name *"
+msgstr ""
+
+#: ../ThemeSoft/comments.php:50
+msgid "Your Email *"
+msgstr ""
+
+#: ../ThemeSoft/comments.php:51
+msgid "Your Website"
+msgstr ""
+
+#: ../ThemeSoft/comments.php:56
+msgid "Submit"
+msgstr ""
+
+#: ../ThemeSoft/comments.php:58
+msgid "* Required Fields."
+msgstr ""
+
+#: ../ThemeSoft/comments.php:59
+msgid "Your email will not be published."
+msgstr ""
+
+#: ../ThemeSoft/comments.php:73
+msgid "Comments are Closed"
+msgstr ""
+
+#: ../ThemeSoft/footer.php:13
+msgid "&copy; Copyright"
+msgstr ""
+
+#: ../ThemeSoft/footer.php:13
+msgid "Powered by WordPress"
+msgstr ""
+
+#: ../ThemeSoft/footer.php:14
+msgid "Themefurnace"
+msgstr ""
+
+#: ../ThemeSoft/functions.php:260
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../ThemeSoft/functions.php:284
+msgid "Pingback:"
+msgstr ""
+
+#: ../ThemeSoft/index.php:95
+msgid "Read the latest from our company blog"
+msgstr ""
+
+#: ../ThemeSoft/page.php:7
+msgid "Posted By"
+msgstr ""
+
+#: ../ThemeSoft/page.php:8
+msgid "Posted on:"
+msgstr ""
+
+#: ../ThemeSoft/search.php:5
+msgid "Search Results for"
+msgstr ""
+
+#: ../ThemeSoft/searchform.php:2
+msgid "Type &amp; Hit Enter to Search"
+msgstr ""
+
+#: ../ThemeSoft/tag.php:6
+msgid "Tag Archives:"
+msgstr ""
+
+#: ../ThemeSoft/admin/admin.php:780
+msgid "Theme Options"
+msgstr ""
+
+#: ../ThemeSoft/admin/home.php:21
+#: ../ThemeSoft/admin/home.php:79
+msgid "Theme options have changed. Make sure to save."
+msgstr ""
+
+#: ../ThemeSoft/admin/home.php:22
+#: ../ThemeSoft/admin/home.php:80
+msgid "Save Changes"
+msgstr ""
+
+#: ../ThemeSoft/admin/home.php:23
+#: ../ThemeSoft/admin/home.php:81
+msgid "Discard Changes"
+msgstr ""
+
+#: ../ThemeSoft/admin/home.php:42
+#: ../ThemeSoft/admin/home.php:64
+msgid "Import/Export"
+msgstr ""
+
+#: ../ThemeSoft/admin/home.php:91
+msgid "Version"
+msgstr ""
+
+#: ../ThemeSoft/admin/home.php:101
+msgid "You must be logged in to view this page"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:470
+msgid "Default Image"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:853
+msgid "CSS Selector"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:863
+msgid "Font Family"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:910
+msgid "No fonts registered yet"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:915
+msgid "Google Webfont Weight"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:919
+#: ../ThemeSoft/admin/library/options/options.php:934
+#: ../ThemeSoft/admin/library/options/options.php:972
+msgid "Normal"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:927
+msgid "The Google Web Font API allows you to load specific font/weight combinations. This option allows you to select specific font weight files to load."
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:931
+msgid "Font Weight"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:935
+msgid "Bold"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:937
+msgid "Please Note: Some fonts do not have additional weights. In many cases, the below preview will not accurately reflect font weight."
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:941
+msgid "Text Shadow"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:943
+msgid "No Shadow"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:944
+msgid "Style #1"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:945
+msgid "Style #2"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:946
+msgid "Style #3"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:947
+msgid "Style #4"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:948
+msgid "Style #5"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:949
+msgid "Style #6"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:950
+msgid "Style #7"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:952
+msgid "Please Note: Text shadow is an advanced CSS property. Not all browsers will see it."
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:960
+msgid "Text Transform"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:962
+#: ../ThemeSoft/admin/library/options/options.php:981
+msgid "None"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:963
+msgid "uppercase"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:964
+msgid "lowercase"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:965
+msgid "capitalize"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:970
+msgid "Font Style"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:973
+msgid "Italic"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:974
+msgid "Oblique"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:979
+msgid "Text Decoration"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:982
+msgid "underline"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:983
+msgid "line-through"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:984
+msgid "overline"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:989
+msgid "Font Size"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:995
+msgid "Line Height"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:1001
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:1015
+msgid "Preview"
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:1016
+msgid "Pack my box with five dozen liquor jugs."
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:1016
+msgid "The quick brown fox jumps over the lazy dog. "
+msgstr ""
+
+#: ../ThemeSoft/admin/library/options/options.php:1262
+msgid "It appears there are no layouts available. Please check your theme options for a valid layout option."
+msgstr ""
+
+#: ../ThemeSoft/widgets/flickr-widget.php:101
+#: ../ThemeSoft/widgets/tabber.php:98
+#: ../ThemeSoft/widgets/twitter-widget.php:185
+msgid "Title:"
+msgstr ""
+
+#: ../ThemeSoft/widgets/flickr-widget.php:113
+msgid "Flickr ID (<a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr ""
+
+#: ../ThemeSoft/widgets/flickr-widget.php:117
+msgid "Tags:"
+msgstr ""
+
+#: ../ThemeSoft/widgets/flickr-widget.php:117
+msgid "Separate tag with commas"
+msgstr ""
+
+#: ../ThemeSoft/widgets/twitter-widget.php:189
+msgid "Username:"
+msgstr ""
+
+#: ../ThemeSoft/widgets/twitter-widget.php:193
+msgid "Number:"
+msgstr ""
+
+#: ../ThemeSoft/widgets/twitter-widget.php:202
+msgid "Exclude replies?"
+msgstr ""
+
+#: ../ThemeSoft/widgets/twitter-widget.php:206
+msgid "Include Retweets?"
+msgstr ""
+
+#: ../ThemeSoft/widgets/twitter-widget.php:210
+msgid "Add nofolow to link?"
+msgstr ""
+
+#: ../ThemeSoft/widgets/twitter-widget.php:214
+msgid "Open links in new window?"
+msgstr ""
+
+#: ../ThemeSoft/widgets/twitter-widget.php:218
+msgid "Use YQL?"
+msgstr ""
+

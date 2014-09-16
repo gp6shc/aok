@@ -1,0 +1,1 @@
+<?phprequire_once('recaptchalib.php');// Get a key from https://www.google.com/recaptcha/admin/create$privatekey = get_option('recaptcha_private_key');

@@ -1,0 +1,3 @@
+<form action="<?php echo home_url(); ?>/" method="get">
+<input class="sidesearch" type="text" name="s" id="search" value="<?php _e('Type &amp; Hit Enter to Search','themefurnace') ?>" onblur="if (this.value == '')  {this.value = '<?php _e('Type &amp; Hit Enter to Search','themefurnace') ?>';}"  onfocus="if (this.value == '<?php _e('Type &amp; Hit Enter to Search','themefurnace') ?>') {this.value = '';}">
+</form>

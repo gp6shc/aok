@@ -1,0 +1,95 @@
+/* Navigation */
+#navbar select {
+	display: none;
+}
+#navbar {
+	height:32px;
+	font-size: 12px;
+	margin:0 auto;
+	z-index:999;
+	position:absolute;
+	bottom:2px;
+	right:0px;
+}
+#main-nav {
+	height: 32px; /* set to the height you want your menu to be */
+	margin: 0 0 10px; /* just to give some spacing */
+	float: right;
+	font-size: 12px;
+}
+#main-nav ul {
+	margin: 0;
+	padding: 0; /* only needed if you have not done a CSS reset */
+}
+#main-nav li {
+	display: block;
+	float: left;
+	line-height: 32px; /* this should be the same as your #main-nav height */
+	height: 32px; /* this should be the same as your #main-nav height */
+	margin: 0;
+	padding: 0; /* only needed if you don't have a reset */
+	position: relative; /* this is needed in order to position sub menus */
+	background-color: #F9F9F9;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right:2px;
+}
+#main-nav li a {
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 15px;
+	border:0px;
+	color:#1D1D1D;
+}
+#main-nav li a:hover {
+	background-color: #EEEEEE;
+	border-top-left-radius: 10px 5px;
+	border-bottom-right-radius: 10% 5%;
+	border-top-right-radius: 10px;
+}
+ #main-nav .current-menu-item a, #main-nav .current_page_item a, {
+ color: white;
+ background-color: #EEEEEE;
+}
+#main-nav ul ul a {
+	color: #CACACA;
+}
+#main-nav ul ul a:hover {
+	color:#FFFFFF;
+}
+#main-nav ul ul { /* this targets all sub menus */
+	display:none;
+	position: absolute;
+	top: 32px; /* this should be the same height as the top level menu -- height + padding + borders */
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+	z-index:9999;
+	font-size:12px;
+	font-weight:normal;
+}
+#main-nav ul ul li { /* this targets all submenu items */
+	float: none; /* overwriting our float up above */
+	width: 150px; /* set to the width you want your sub menus to be. This needs to match the value we set below */
+	border-bottom:1px solid #555555;
+	background-color:#343434;
+	background-image:url(img/stripes-dark.png);
+	background-repeat:repeat;
+}
+#main-nav ul ul li a { /* target all sub menu item links */
+}
+#main-nav ul ul li a:hover { /* target all sub menu item links */
+	background-color:#525252;
+	border-bottom:1px solid #B35B13;
+}
+#main-nav ul li:hover > ul {
+	display: block; /* show sub menus when hovering over a parent */
+	background-color:white;
+}
+#main-nav ul ul li ul {
+	/* target all second, third, and deeper level sub menus */
+
+	left: 150px; /* this needs to match the sub menu width set above -- width + padding + borders */
+	top: 0; /* this ensures the sub menu starts in line with its parent item */
+}
