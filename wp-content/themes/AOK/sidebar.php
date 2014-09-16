@@ -1,6 +1,1 @@
-<div id="sidebar">
-
-<?php	/* Widgetised Area */	if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Questions') ) ?>
-
-</div><!--End Sidebar-->
-<br class="clear" />
+<div id="sidebar"><div id="askbar"><form action="<?php echo get_bloginfo('url').'/submit'; ?>" method="get"  class="ask"><input type="submit" value="Submit an Idea" class="topbutton topblue" /></form></div><?php	/* Widgetised Area */	if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Questions') ) ?></div><!--End Sidebar--><br class="clear" />
