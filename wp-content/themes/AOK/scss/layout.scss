@@ -1,9 +1,14 @@
 /* Theme Layout */
 #container {
-	width:960px;
-	margin:0 auto;
-	border-top:10px solid #F7F7F7;
+	width: 960px;
+	margin: 0 auto;
 	background-color: white;
+	
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
 }
 #header {
 	height:110px;
@@ -25,11 +30,8 @@
 	}
 }
 #askbar {
-	margin-bottom:25px;
-	width: 288px;
-}
-.ask {
-	text-align: center;	
+	margin-bottom: 25px;
+	
 }
 .searchf {
 	float: right;
@@ -62,22 +64,28 @@
 	padding-left:10px;
 }
 .topbutton {
-	height:38px;
-	font-weight: bold;
-	font-size: 16px;
-	display: inline-block;
+	height: 38px;
+	margin: 0 auto;
 	outline: none;
 	cursor: pointer;
+	
+	font-size: 18px;
+	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	margin-right:15px;
-	padding-left:20px;
-	padding-right:20px;
+
+	border-radius: 7px;
 	border: solid 1px #0076a3;
+	
+	a {
+		color: white;
+		
+		&:hover, &:active, &:visited {
+			color: white;
+		}
+		
+	}
 }
 .topbutton:hover {
 	text-decoration: none;
@@ -138,6 +146,13 @@
 .loginbutton:active {
 	position: relative;
 }
+.submit {
+
+}
+.submit-idea {
+	line-height: 38px;
+	width: 152px; 
+}
 .white {
 	color: #606060;
 	border: solid 1px #b7b7b7;
@@ -179,7 +194,7 @@
 	margin-bottom: 20px;
 	max-width: 630px;
 	min-height: 64px;
-	border-bottom: 1px solid #DADADA;
+	border-bottom: 3px solid #f7f7f7;
 }
 .questionmain {
 	margin-left:60px;
@@ -268,6 +283,7 @@
 .questionarea {
 	height:200px;
 	width:80%;
+	max-width: 100%;
 }
 .formlabel {
 	margin-top:20px;
@@ -314,7 +330,6 @@
 	margin-bottom:15px;
 }
 .sidebarwidget {
-	border-bottom:1px solid #F7F7F7;
 	padding-bottom:15px;
 	margin-bottom:20px;
 }
@@ -342,7 +357,10 @@
 
 /* Footer */
 #footer {
-	margin-bottom:30px;
+	height: 75px;
+	width: 960px;
+	margin: 0 auto;
+	clear: both;
 }
 #footer a {
 	color:#777777;
@@ -383,8 +401,7 @@
 	margin-top:10px;
 }
 #bottom {
-	border-top:3px solid #F7F7F7;
-	padding-top:20px;
+	border-top: 3px solid #F7F7F7;
 }
 .footerlogo {
 	float: left;
