@@ -25,10 +25,12 @@ blockquote, q { quotes: "" ""; }
 /* Defaults */
 body { font: "Open Sans", sans-serif, Arial; background: url("../img/bg.png"); color: #777777; line-height: 18px; overflow-x: hidden; }
 
+body.page.page-template-page-full-width-php #content, body.single.single-post #content { max-width: 100%; }
+
 h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif, Arial; color: #010101; padding: 0; }
 
-a, a:visited { color: #da552f; text-decoration: none; }
-a:hover, a:visited:hover { color: #b64220; }
+a, a:visited { color: #1b75bb; text-decoration: none; }
+a:hover, a:visited:hover { color: #15598e; }
 
 input, textarea { font: "Open Sans", sans-serif, Arial; height: 28px; line-height: 28px; font-size: 18px; width: 100%; background: #fff; color: #5d5c5c; border: 1px solid #E4E4E4; padding: 5px; border-radius: 5px; }
 
@@ -125,8 +127,8 @@ img.alignnone, .alignnone { clear: both; display: block; margin-top: 20px; margi
 
 .searchinput { border-radius: 5px; height: 28px; margin-right: 15px; margin-top: 23px; width: 200px; font-size: 16px; font-weight: bold; color: #BFBFBF; padding-left: 10px; }
 
-.topbutton { height: 48px; margin: 0 auto; outline: none; cursor: pointer; font-size: 26px; font-weight: bold; text-align: center; text-decoration: none; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); color: white; background-color: #da552f; border-radius: 2px; border-bottom: 3px solid #b64220; }
-.topbutton:hover { background-color: #b64220; border-bottom: 3px solid #8a3219; }
+.topbutton { height: 48px; margin: 0 auto; outline: none; cursor: pointer; font-size: 26px; font-weight: bold; text-align: center; text-decoration: none; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); color: white; background-color: #1b75bb; border-radius: 2px; border-bottom: 3px solid #15598e; }
+.topbutton:hover { background-color: #15598e; border-bottom: 3px solid #0e3d62; }
 .topbutton a { color: white; }
 .topbutton a:hover, .topbutton a:active, .topbutton a:visited { color: white; }
 
@@ -193,6 +195,8 @@ input.topbutton.submit:hover, input.topbutton.submit:active, input.topbutton.sub
 .questionmeta a:hover { color: #010101; }
 
 .questionmeta li { list-style-type: none; display: inline; margin-right: 20px; }
+
+.event { width: 50px; height: 51px; float: left; margin-right: 10px; }
 
 .cat-count { float: left; background-color: #141414; color: white; display: block; border-radius: 15px; width: 22px; height: 22px; text-align: center; line-height: 22px; margin-right: 10px; font-size: 11px; font-weight: bold; }
 
@@ -269,9 +273,9 @@ input.topbutton.submit:hover, input.topbutton.submit:active, input.topbutton.sub
 #main-nav li { display: block; float: left; line-height: 32px; /* this should be the same as your #main-nav height */ height: 32px; /* this should be the same as your #main-nav height */ margin: 0; padding: 0 15px; position: relative; /* this is needed in order to position sub menus */ margin-right: 2px; }
 
 #main-nav li a { display: block; height: 32px; line-height: 32px; padding: 0; border: 0px; color: #1D1D1D; font-size: 15px; }
-#main-nav li a:hover { border-bottom: 2px solid #da552f; }
+#main-nav li a:hover { border-bottom: 2px solid #1b75bb; }
 
-#main-nav .current-menu-item a, #main-nav .current_page_item a { border-bottom: 2px solid #da552f; }
+#main-nav .current-menu-item a, #main-nav .current_page_item a { border-bottom: 2px solid #1b75bb; }
 
 #main-nav ul ul a { color: #CACACA; }
 
@@ -473,7 +477,7 @@ img { max-width: 100%; height: auto; }
   .topbutton { margin: 0px; }
   .footerwidget { width: 100%; float: inherit; } }
 /*  Portrait Mobiles */
-@media only screen and (max-width: 767px) { #container { width: 290px; }
+@media only screen and (max-width: 767px) { #container { /* width:290px;*/ width: auto; }
   #navbar ul { display: none; }
   #navbar select { display: inline-block; position: absolute; top: 20px; left: 10px; width: 95%; }
   #navbar { position: relative; }
@@ -481,8 +485,9 @@ img { max-width: 100%; height: auto; }
   .topbutton { margin: 0px; }
   .searchf { display: none; }
   #content { float: inherit; width: 100%; }
-  .questiontitle { font-size: 16px; }
+  h2.questiontitle { font-size: 14px; }
   #sidebar { float: inherit; width: 100%; }
+  #bottom { border: none; }
   .questionmeta li { display: none; } }
 /*
 

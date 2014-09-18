@@ -55,17 +55,18 @@ max-width:400px;
 
 @media only screen and (max-width: 767px) {
  #container {
- width:290px;
+/* width:290px;*/
+ width: auto;
 }
  #navbar ul {
  display: none;
 }
  #navbar select {
  display: inline-block;
-position:absolute;
-top:20px;
-left:10px;
-width:95%
+ position:absolute;
+ top:20px;
+ left:10px;
+ width:95%
 }
  #navbar {
  position:relative;
@@ -83,12 +84,15 @@ width:95%
  float: inherit;
  width:100%;
 }
- .questiontitle {
- font-size: 16px;
+h2.questiontitle {
+ font-size: 14px;
 }
  #sidebar {
  float: inherit;
  width:100%;
+}
+#bottom{
+	border: none;
 }
  .questionmeta li {
  display: none;

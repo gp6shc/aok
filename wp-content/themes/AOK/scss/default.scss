@@ -5,7 +5,12 @@ body {
 	color: #777777;
 	line-height: 18px;
 	overflow-x: hidden;
+
 }
+body.page.page-template-page-full-width-php #content, body.single.single-post #content{
+	max-width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font_main;
 	color:#010101;
