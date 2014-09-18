@@ -1,11 +1,15 @@
 /* Sass variables
 -------------------------------------------------------------- */
-$brand_main: #ddd; //set branding when we get color scheme
-$brand_accent: #eee; 
+$brand_main: #da552f; 
+$brand_accent: #f4f2e9; 
+
+/* Font Stacks
+-------------------------------------------------------------- */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:100,400,700');
+$font_main: 'Open Sans', sans-serif, Arial;
 
 /* Sass @imports
 -------------------------------------------------------------- */
-@import 'font-awesome';
 @import 'reset';
 @import 'default';
 @import 'layout';
@@ -14,3 +18,4 @@ $brand_accent: #eee;
 @import 'widgets';
 @import 'responsive';
 @import 'plugin';
+@import 'font-awesome';

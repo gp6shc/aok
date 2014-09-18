@@ -1,29 +1,25 @@
 /* Defaults */
 body {
-	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-repeat: repeat;
+	font: $font_main;
+	background: url('../img/bg.png');
 	color: #777777;
 	line-height: 18px;
+	overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: $font_main;
 	color:#010101;
 	padding: 0;
 }
-a {
-	color: #006CFF;
+a, a:visited {
+	color: $brand-main;
 	text-decoration: none;
-}
-a:visited {
-	color: #006CFF;
-	text-decoration: none;
-}
-a:hover {
-	color:#B9B9B9;
-	text-decoration: none;
+	&:hover{
+		color: darken($brand-main, 10%);
+	}
 }
 input, textarea {
-	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: $font_main;
 	background: #fff;
 	color: #5d5c5c;
 	border: 1px solid #E4E4E4;

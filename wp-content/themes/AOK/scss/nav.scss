@@ -27,30 +27,24 @@
 	line-height: 32px; /* this should be the same as your #main-nav height */
 	height: 32px; /* this should be the same as your #main-nav height */
 	margin: 0;
-	padding: 0; /* only needed if you don't have a reset */
+	padding: 0 15px; 
 	position: relative; /* this is needed in order to position sub menus */
-	background-color: #F9F9F9;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
 	margin-right:2px;
 }
 #main-nav li a {
 	display: block;
 	height: 32px;
 	line-height: 32px;
-	padding: 0 15px;
+	padding: 0;
 	border:0px;
 	color:#1D1D1D;
+	font-size: 15px;
+	&:hover{
+		border-bottom: 2px solid $brand-main;
+	}
 }
-#main-nav li a:hover {
-	background-color: #EEEEEE;
-	border-top-left-radius: 10px 5px;
-	border-bottom-right-radius: 10% 5%;
-	border-top-right-radius: 10px;
-}
- #main-nav .current-menu-item a, #main-nav .current_page_item a, {
- color: white;
- background-color: #EEEEEE;
+#main-nav .current-menu-item a, #main-nav .current_page_item a, {
+	border-bottom: 2px solid $brand-main;
 }
 #main-nav ul ul a {
 	color: #CACACA;

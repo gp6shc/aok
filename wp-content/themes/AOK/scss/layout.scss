@@ -1,7 +1,9 @@
 /* Theme Layout */
 #container {
 	width: 960px;
+	max-width: 100%;
 	margin: 0 auto;
+	padding: 0px 20px;
 	background-color: white;
 	
 	&:after {
@@ -21,12 +23,12 @@
 	bottom:10px;
 }
 .about {
-	background-color: #f9f9f9;
-	margin: 0 0 35px 0;
+	background-color: $brand-accent;
+	margin: 0;
 	padding: 20px;
 	
 	p {
-		font-size: 16px;
+		font-size: 15px;
 	}
 }
 #askbar {
@@ -64,19 +66,25 @@
 	padding-left:10px;
 }
 .topbutton {
-	height: 38px;
+	height: 48px;
 	margin: 0 auto;
 	outline: none;
 	cursor: pointer;
 	
-	font-size: 18px;
+	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 
-	border-radius: 7px;
-	border: solid 1px #0076a3;
+	color: white;
+	background-color: $brand-main;
+	border-radius: 2px;
+	border-bottom: 3px solid darken($brand-main, 10%);
+	&:hover{
+		background-color: darken($brand-main, 10%);
+		border-bottom: 3px solid darken($brand-main, 20%);
+	}
 	
 	a {
 		color: white;
@@ -150,8 +158,8 @@
 
 }
 .submit-idea {
-	line-height: 38px;
-	width: 152px; 
+	line-height: 48px;
+	width: 100%; 
 }
 .white {
 	color: #606060;
@@ -184,17 +192,27 @@
 	margin-right:10px;
 }
 #content {
-	float:left;
-	width:100%;
+	float: left;
+	width: 100%;
 	max-width:600px;
-	margin-right:-288px;
-	margin-bottom:20px;
+	margin-top: 50px;
+	margin-right: -288px;
+	margin-bottom: 20px;
+}
+.date{
+	margin-bottom: 20px;
+	font-size: 15px;
 }
 .question {
 	margin-bottom: 20px;
 	max-width: 630px;
 	min-height: 64px;
+	padding: 10px 12px;
 	border-bottom: 3px solid #f7f7f7;
+	transition: background-color 0.3s ease;
+	&:hover{
+		background-color: $brand-accent;
+	}
 }
 .questionmain {
 	margin-left:60px;
@@ -320,11 +338,11 @@
 #sidebar {
 	float:right;
 	width:288px;
+	margin-top: 50px;
 	margin-bottom:15px;
 }
 .sidehead {
-	font-size: 14px;
-	font-weight: bold;
+	font-size: 15px;
 	border-bottom:3px solid #F7F7F7;
 	padding-bottom:5px;
 	margin-bottom:15px;
