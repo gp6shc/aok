@@ -7,7 +7,7 @@ body {
 	overflow-x: hidden;
 
 }
-body.page.page-template-page-full-width-php #content, body.single.single-post #content{
+body.page.page-template-page-full-width-php .content, body.single.single-post .content{
 	max-width: 100%;
 }
 
@@ -152,57 +152,55 @@ img.alignnone, .alignnone {
 .gallery br+br {
 	display: none;
 }
-#content .attachment img {/* single attachment images should be centered */
+.content .attachment img {/* single attachment images should be centered */
 	display: block;
 	margin: 0 auto;
 }
-#content table {
+.content table {
 	border: 1px solid #e7e7e7;
 	margin: 0 -1px 24px 0;
 	text-align: left;
 	width: 100%;
 }
-#content tr th, #content thead th {
+.content tr th, .content thead th {
 	color: #888;
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 18px;
 	padding: 9px 24px;
 }
-#content tr td {
+.content tr td {
 	border-top: 1px solid #e7e7e7;
 	padding: 6px 24px;
 }
-#content tr.odd td {
+.content tr.odd td {
 	background: #f2f7fc;
 }
-#content dl {
+.content dl {
 	margin: 0 0 24px 0;
 }
-#content dt {
+.content dt {
 	font-weight: bold;
 }
-#content dd {
+.content dd {
 	margin-bottom: 18px;
 }
-#content ul {
-	margin-bottom:20px;
+.content ul {
 	display:block;
 	list-style-type:square
 }
-#content li {
+.content li {
 	margin-bottom:5px;
 }
-#content ol {
+.content ol {
 	margin-bottom:20px;
 	display:block;
-	padding-left:20px;
 	list-style-type:decimal
 }
-#content p {
+.content p {
 	margin-bottom:12px;
 }
-#content address {
+.content address {
 	margin-bottom:20px;
 	display:block;
 }

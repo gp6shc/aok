@@ -198,7 +198,7 @@ input.topbutton.submit{
 .twitterbutton {
 	margin-right:10px;
 }
-#content {
+.content {
 	float: left;
 	width: 100%;
 	max-width:600px;
@@ -216,9 +216,11 @@ input.topbutton.submit{
 	min-height: 64px;
 	padding: 10px 12px;
 	border-bottom: 3px solid #f7f7f7;
-	transition: background-color 0.3s ease;
+	border-left: 2px solid white;
+	transition: border 0.3s ease;
+	
 	&:hover{
-		background-color: $brand-offset;
+		border-left-color: $brand-accent;
 	}
 }
 .questionmain {
@@ -265,6 +267,7 @@ input.topbutton.submit{
 }
 .questionmeta {
 	color:#A4A4A4;
+	margin: 25px 0 0 0;
 }
 .questionmeta a {
 	color:#A4A4A4;
@@ -436,4 +439,66 @@ input.topbutton.submit{
 .footerlogo {
 	float: left;
 	margin-right:10px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Thumbs Ratings Styles */
+/*-----------------------------------------------------------------------------------*/
+
+.thumbs-rating-container{
+	padding:1em 0;
+	display: block;
+}
+
+.thumbs-rating-container span{
+	cursor: pointer;
+	min-width: 38px;
+	display: inline-block;
+	text-align: center;
+}
+
+.thumbs-rating-container span:before{
+	content: attr(data-text);
+}
+
+.thumbs-rating-container .thumbs-rating-up, .thumbs-rating-container .thumbs-rating-down{
+	padding: 0.5em;
+	color: white;
+} 
+
+.thumbs-rating-container .thumbs-rating-up{
+	background: $brand-main;
+	border-bottom: 3px solid darken($brand-main, 10%);
+
+	&:hover{
+		background-color: darken($brand-main, 10%);
+		border-bottom: 3px solid darken($brand-main, 20%);
+	}
+}
+
+.thumbs-rating-container .thumbs-rating-down{
+	background: $brand-accent;
+	border-bottom: 3px solid darken($brand-accent, 10%);
+
+	&:hover{
+		background-color: darken($brand-accent, 10%);
+		border-bottom: 3px solid darken($brand-accent, 20%);
+	}
+}
+
+.thumbs-rating-container .thumbs-rating-already-voted{
+	padding-top: 1em;
+	font-size: 0.9em;
+	display: none;
+
+    transition: background 0.3s ease;
+}
+
+.thumbs-rating-container .thumbs-rating-already-voted:before{
+	content: attr(data-text);
+}
+
+.thumbvote {
+	display: inline;
+	padding: 0 6px 0 1px;
 }

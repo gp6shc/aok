@@ -1,7 +1,7 @@
 /* Sass variables
 -------------------------------------------------------------- */
 $brand_main: #1b75bb; //blue
-$brand_accent: #3db554; //green
+$brand_accent: #c84848; //red? 
 $brand_offset: #f4f2e9; //tan
 
 /* Font Stacks
@@ -18,5 +18,5 @@ $font_main: 'Open Sans', sans-serif, Arial;
 @import 'comments';
 @import 'widgets';
 @import 'responsive';
-@import 'plugin';
+//@import 'plugin';
 @import 'font-awesome';
