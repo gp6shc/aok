@@ -65,6 +65,7 @@
 	color:#BFBFBF;
 	padding-left:10px;
 }
+
 .topbutton {
 	height: 48px;
 	margin: 0 auto;
@@ -81,6 +82,7 @@
 	background-color: $brand-main;
 	border-radius: 2px;
 	border-bottom: 3px solid darken($brand-main, 10%);
+
 	&:hover{
 		background-color: darken($brand-main, 10%);
 		border-bottom: 3px solid darken($brand-main, 20%);
@@ -94,10 +96,15 @@
 		}
 		
 	}
+	
 }
-.topbutton:hover {
-	text-decoration: none;
-	color: white;
+input.topbutton.submit{
+	width: 100%;
+	
+	&:hover, &:active, &:visited {
+		color: white;
+	}
+	
 }
 .topbutton:active {
 	position: relative;
@@ -215,7 +222,7 @@
 	}
 }
 .questionmain {
-	margin-left:60px;
+	margin-left:72px;
 }
 .questiontitle {
 	margin:0px;
@@ -223,7 +230,7 @@
 	font-weight: bold;
 	letter-spacing: -0.2px;
 	margin-top:8px;
-	margin-bottom:2px;
+	margin-bottom:20px;
 	line-height: 22px;
 }
 .questiontitle a {
@@ -298,16 +305,15 @@
 .user-points {
 	float: right;
 }
-.questionarea {
-	height:200px;
-	width:80%;
-	max-width: 100%;
-}
 .formlabel {
 	margin-top:20px;
 }
 /* Interior */
-
+.questionarea {
+	height:200px;
+	width:100%!important;
+	max-width: 100%;
+}
 
 
 .userinfo p {

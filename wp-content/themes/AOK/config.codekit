@@ -139,6 +139,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3563,
+		"inputAbbreviatedPath": "\/img\/bg.png",
+		"outputAbbreviatedPath": "\/img\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bubble-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -20,6 +20,10 @@ a, a:visited {
 }
 input, textarea {
 	font: $font_main;
+	height: 28px;
+	line-height: 28px;
+	font-size: 18px;
+	width: 100%;
 	background: #fff;
 	color: #5d5c5c;
 	border: 1px solid #E4E4E4;
@@ -37,6 +41,9 @@ input:focus, textarea:focus {
 	-webkit-box-shadow: 0px 0px 3px 0px #BBD3FF;
 	box-shadow: 0px 0px 3px 0px #BBD3FF;
 	moz-box-shadow: 0px 0px 3px 0px #BBD3FF;
+}
+#post_category{
+	margin-bottom: 20px;
 }
 blockquote {
 	color:#404040;
