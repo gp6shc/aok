@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="content">
+<div class="content">
 
 <h1 class="questiontitle"><?php _e('Search Results for','themefurnace') ?> <?php the_search_query(); ?></h2>
 

@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
-<div id="content">
-
+<div class="content">
 <h2 class="intro"><?php if ( is_day() ) : ?>
 <?php printf( __( '' . __('Daily Archives:', 'framework') . ' <span>%s</span>', 'blankslate' ), get_the_time(get_option('date_format')) ) ?>
 <?php elseif ( is_month() ) : ?>

@@ -4,7 +4,7 @@ Template Name: Forgot Password
 */
 ?>
 <?php get_header(); ?>
-<div id="content">
+<div class="content">
 
 <?php the_post(); ?>
 <h1 class="questiontitle"><?php the_title(); ?></h1>

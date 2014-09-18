@@ -6,7 +6,7 @@ Used for thankyou page
 
 get_header();
 ?>
-    <div id="content">
+    <div class="content">
 
         <h1 class="questiontitle"><?php the_title(); ?></h1>
         <ul class="questionmeta">
