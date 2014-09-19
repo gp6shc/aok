@@ -5929,6 +5929,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/AOK\/css\/responsive.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/css\/responsive.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/AOK\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -5943,15 +5952,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/edit-profile.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/AOK\/footer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/footer.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -5998,7 +5998,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 24023,
+		"initialSize": 222357,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/bg.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/bg.png",
 		"outputPathIsOutsideProject": 0,
@@ -6259,6 +6259,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/wp-content\/themes\/AOK\/scss\/grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/scss\/grid.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/css\/grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/wp-content\/themes\/AOK\/scss\/layout.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6407,15 +6423,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/AOK\/sidebar.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/sidebar.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/AOK\/signup-form.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6541,6 +6548,94 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/em-coast-1024x704.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249035,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-1024x704.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-1024x704.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/em-coast-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10840,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/em-coast-300x206.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26186,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-300x206.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-300x206.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/em-coast.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.20203e+06,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/emerald-coast-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6392,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/emerald-coast-300x240.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15788,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast-300x240.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast-300x240.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/emerald-coast.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29581,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/upfw\/aok_logo_green_draftv1_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9236,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/upfw\/aok_logo_green_draftv1_1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/upfw\/aok_logo_green_draftv1_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-cron.php": {
 		"fileType": 8192,
