@@ -49,7 +49,7 @@ jQuery(document).ready(function(){
  */
 
 if ( get_option('users_can_register') == false ) {
-	echo "<p>Sorry,At this time user registration is disabled. We will open registration soon!</p>";
+	
 	return;
 }
 
