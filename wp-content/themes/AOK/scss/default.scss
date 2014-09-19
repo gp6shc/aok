@@ -7,10 +7,12 @@ body {
 	overflow-x: hidden;
 
 }
-body.page.page-template-page-full-width-php .content, body.single.single-post .content{
+body.page.page-template-page-full-width-php .content, body.single.single-post .content, body.page.page-template-blog-php .content{
 	max-width: 100%;
 }
-
+body.page.page-template-blog-php .question{
+	max-width: 100%;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font_main;
 	color:#010101;

@@ -25,7 +25,9 @@ blockquote, q { quotes: "" ""; }
 /* Defaults */
 body { font: "Open Sans", sans-serif, Arial; background: url("../img/bg.png"); color: #777777; line-height: 18px; overflow-x: hidden; }
 
-body.page.page-template-page-full-width-php .content, body.single.single-post .content { max-width: 100%; }
+body.page.page-template-page-full-width-php .content, body.single.single-post .content, body.page.page-template-blog-php .content { max-width: 100%; }
+
+body.page.page-template-blog-php .question { max-width: 100%; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif, Arial; color: #010101; padding: 0; }
 
@@ -170,7 +172,7 @@ input.topbutton.submit:hover, input.topbutton.submit:active, input.topbutton.sub
 .date { margin-bottom: 20px; font-size: 15px; font-weight: 700; color: #222; }
 
 .question { margin-bottom: 20px; max-width: 630px; min-height: 64px; padding: 10px 12px; border-bottom: 3px solid #f7f7f7; border-left: 2px solid white; -webkit-transition: border 0.3s ease; transition: border 0.3s ease; }
-.question:hover { border-left-color: #c84848; }
+.question:hover { border-left-color: #c84848; background-color: #fafafa; }
 
 .questionmain { margin-left: 72px; }
 
@@ -188,7 +190,7 @@ input.topbutton.submit:hover, input.topbutton.submit:active, input.topbutton.sub
 
 .questionnumber p { font-size: 25px; font-weight: bold; text-align: center; line-height: 50px; }
 
-.questionmeta { color: #A4A4A4; margin: 25px 0 0 0; }
+.questionmeta { color: #A4A4A4; margin: -15px 0 0 0; }
 
 .questionmeta a { color: #A4A4A4; }
 

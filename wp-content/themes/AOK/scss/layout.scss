@@ -223,6 +223,7 @@ input.topbutton.submit{
 	
 	&:hover{
 		border-left-color: $brand-accent;
+		background-color: $brand-offset;
 	}
 }
 .questionmain {
@@ -270,7 +271,7 @@ input.topbutton.submit{
 }
 .questionmeta {
 	color:#A4A4A4;
-	margin: 25px 0 0 0;
+	margin: -15px 0 0 0;
 }
 .questionmeta a {
 	color:#A4A4A4;
