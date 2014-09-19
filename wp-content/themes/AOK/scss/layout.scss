@@ -15,7 +15,7 @@
 #header {
 	height:110px;
 	position: relative;
-	border-bottom:1px solid #F7F7F7;
+	border-top: 5px solid $brand-accent;
 }
 .logo {
 	position:absolute;
@@ -209,6 +209,8 @@ input.topbutton.submit{
 .date{
 	margin-bottom: 20px;
 	font-size: 15px;
+	font-weight: 700;
+	color: #222;
 }
 .question {
 	margin-bottom: 20px;
@@ -234,9 +236,10 @@ input.topbutton.submit{
 	margin-top:8px;
 	margin-bottom:20px;
 	line-height: 22px;
+	color: $brand-main;
 }
 .questiontitle a {
-	color:#010101;
+	color: $brand-main;
 }
 .questiontitle a:hover {
 	color: #777777;
@@ -288,7 +291,7 @@ input.topbutton.submit{
 }
 .cat-count {
 	float:left;
-	background-color: #141414;
+	background-color: $brand-accent;
 	color:white;
 	display:block;
 	-moz-border-radius:15px;
