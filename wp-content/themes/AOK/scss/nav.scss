@@ -3,19 +3,15 @@
 	display: none;
 }
 #navbar {
+	float: right;
 	height:32px;
-	font-size: 12px;
 	margin:0 auto;
 	z-index:9;
-	position:absolute;
-	bottom:2px;
-	right:0px;
 }
 #main-nav {
 	height: 32px; /* set to the height you want your menu to be */
-	margin: 0 0 10px; /* just to give some spacing */
-	float: right;
 	font-size: 12px;
+	margin-top: 24px;
 }
 #main-nav ul {
 	margin: 0;

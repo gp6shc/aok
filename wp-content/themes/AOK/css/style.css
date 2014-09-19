@@ -50,7 +50,8 @@ body {
   line-height: 18px;
   overflow-x: hidden;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  min-width: 320px; }
 
 body.page.page-template-page-full-width-php .content, body.single.single-post .content, body.page.page-template-blog-php .content {
   max-width: 100%; }
@@ -308,22 +309,28 @@ img.alignnone, .alignnone {
   max-width: 100%;
   margin: 0 auto;
   padding: 0px 20px;
-  background-color: white;
-  border-top: 5px solid #c84848; }
+  background-color: white; }
   #container:after {
     content: '';
     display: table;
     clear: both; }
 
 #header {
-  height: 110px;
+  padding-top: 35px;
+  margin-bottom: 5px;
   position: relative;
+  border-top: 5px solid #1b75bb;
   border-bottom: 1px solid #FAFAFA; }
+  #header:after {
+    content: '';
+    display: table;
+    clear: both; }
 
-.logo {
-  position: absolute;
-  left: 0px;
-  bottom: 10px; }
+.logo.logo.logo {
+  float: left;
+  color: black;
+  font-size: 26px;
+  line-height: 1; }
 
 .about {
   background-color: #FAFAFA;
@@ -549,7 +556,7 @@ input.topbutton.submit {
   color: #A4A4A4; }
 
 .questionmeta a:hover {
-  color: #010101; }
+  color: #c84848; }
 
 .questionmeta li {
   list-style-type: none;
@@ -703,7 +710,10 @@ input.topbutton.submit {
   margin-top: 10px; }
 
 #bottom {
-  border-top: 3px solid #F7F7F7; }
+  border-top: 3px solid #F7F7F7;
+  text-align: center; }
+  #bottom p {
+    font-size: 12px; }
 
 .footerlogo {
   float: left;
@@ -762,21 +772,16 @@ input.topbutton.submit {
   display: none; }
 
 #navbar {
+  float: right;
   height: 32px;
-  font-size: 12px;
   margin: 0 auto;
-  z-index: 9;
-  position: absolute;
-  bottom: 2px;
-  right: 0px; }
+  z-index: 9; }
 
 #main-nav {
   height: 32px;
   /* set to the height you want your menu to be */
-  margin: 0 0 10px;
-  /* just to give some spacing */
-  float: right;
-  font-size: 12px; }
+  font-size: 12px;
+  margin-top: 24px; }
 
 #main-nav ul {
   margin: 0;
@@ -1326,19 +1331,6 @@ img {
     /* width:290px;*/
     width: auto; }
 
-  #navbar ul {
-    display: none; }
-
-  #navbar select {
-    display: inline-block;
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    width: 95%; }
-
-  #navbar {
-    position: relative; }
-
   .askinput {
     width: 150px; }
 
@@ -1364,6 +1356,23 @@ img {
 
   .questionmeta li {
     display: none; } }
+@media only screen and (max-width: 627px) {
+  #main-nav li {
+    padding: 0 6px; }
+    #main-nav li a {
+      font-size: 15px;
+      border-bottom: 2px solid #1b75bb; }
+
+  .about {
+    margin-top: 25px; } }
+@media only screen and (max-width: 340px) {
+  #main-nav li {
+    padding: 0 7px; }
+    #main-nav li a {
+      font-size: 13px; }
+
+  #sidebar {
+    clear: both; } }
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

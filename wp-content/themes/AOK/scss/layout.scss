@@ -69,7 +69,6 @@
 	margin: 0 auto;
 	padding: 0px 20px;
 	background-color: white;
-	border-top: 5px solid $brand-accent;
 	
 	&:after {
 		content: '';
@@ -78,14 +77,23 @@
 	}
 }
 #header {
-	height:110px;
+	padding-top: 35px;
+	margin-bottom: 5px;
 	position: relative;
+	border-top: 5px solid $brand-main;
 	border-bottom: 1px solid $brand-offset;
+	
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
 }
-.logo {
-	position:absolute;
-	left:0px;
-	bottom:10px;
+.logo.logo.logo { // don't ask, it just increases specificity...
+	float: left;
+	color: black;
+	font-size: 26px;
+	line-height: 1;
 }
 .about {
 	background-color: $brand-offset;
@@ -348,7 +356,7 @@ input.topbutton.submit{
 	color:#A4A4A4;
 }
 .questionmeta a:hover {
-	color:#010101;
+	color: $brand-accent;
 }
 .questionmeta li {
 	list-style-type: none;
@@ -513,6 +521,11 @@ input.topbutton.submit{
 }
 #bottom {
 	border-top: 3px solid #F7F7F7;
+	text-align: center;
+
+	p {
+		font-size: 12px;
+	}
 }
 .footerlogo {
 	float: left;
