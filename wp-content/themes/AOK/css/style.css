@@ -176,7 +176,7 @@ input.topbutton.submit:hover, input.topbutton.submit:active, input.topbutton.sub
 
 .questionmain { margin-left: 72px; }
 
-.questiontitle { margin: 0px; font-size: 20px; font-weight: bold; letter-spacing: -0.2px; margin-top: 15px; margin-bottom: 40px; line-height: 22px; color: #1b75bb; }
+.questiontitle { margin: 0px; font-size: 20px; font-weight: bold; letter-spacing: -0.2px; margin-top: 10px; margin-bottom: 20px; line-height: 22px; color: #1b75bb; }
 
 .questiontitle a { color: #1b75bb; }
 
@@ -197,6 +197,8 @@ input.topbutton.submit:hover, input.topbutton.submit:active, input.topbutton.sub
 .questionmeta a:hover { color: #010101; }
 
 .questionmeta li { list-style-type: none; display: inline; margin-right: 20px; }
+
+.avatar { margin-top: 3px; }
 
 .event { width: 50px; height: 51px; float: left; margin-right: 10px; }
 
