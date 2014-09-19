@@ -52,7 +52,7 @@ img.aligncenter, .aligncenter { clear: both; display: block; margin-left: auto; 
 
 img.alignleft, .alignleft { float: left; margin-right: 20px; margin-bottom: 20px; margin-top: 20px; clear: both; }
 
-img.alignright, .alignright { float: right; margin-left: 20px; margin-bottom: 20px; margin-top: 20px; clear: both; }
+img.alignright, .alignright { float: right; margin-left: 20px; margin-bottom: 20px; margin-top: 0px; clear: both; }
 
 img.alignnone, .alignnone { clear: both; display: block; margin-top: 20px; margin-bottom: 20px; clear: both; }
 
@@ -114,7 +114,7 @@ img.alignnone, .alignnone { clear: both; display: block; margin-top: 20px; margi
 #container { width: 960px; max-width: 100%; margin: 0 auto; padding: 0px 20px; background-color: white; }
 #container:after { content: ''; display: table; clear: both; }
 
-#header { height: 110px; position: relative; border-top: 5px solid #c84848; border-bottom: 1px solid #fafafa; }
+#header { height: 110px; position: relative; border-top: 5px solid #1b75bb; border-bottom: 1px solid #fafafa; }
 
 .logo { position: absolute; left: 0px; bottom: 10px; }
 
