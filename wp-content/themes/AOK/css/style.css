@@ -46,7 +46,7 @@ body {
   font: "Open Sans", sans-serif, Arial;
   background-image: url("../img/bg.png");
   background-size: cover;
-  color: #777777;
+  color: #3d3d3d;
   line-height: 18px;
   overflow-x: hidden;
   position: relative;
@@ -259,7 +259,8 @@ img.alignnone, .alignnone {
   background-color: rgba(0, 0, 0, 0.75);
   opacity: 1;
   -webkit-transition: opacity 0.5s ease;
-          transition: opacity 0.5s ease; }
+          transition: opacity 0.5s ease;
+  cursor: pointer; }
 
 .modal .modal-box {
   position: relative;
@@ -268,7 +269,8 @@ img.alignnone, .alignnone {
   margin: 0 auto;
   min-height: 300px;
   margin-top: 50px;
-  padding: 45px; }
+  padding: 45px;
+  cursor: default; }
   .modal .modal-box .fa-times {
     cursor: pointer;
     position: absolute;
@@ -287,7 +289,7 @@ img.alignnone, .alignnone {
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 40%;
+  padding-bottom: 42%;
   padding-top: 25px;
   height: 0;
   margin: 20px auto;
@@ -331,13 +333,19 @@ img.alignnone, .alignnone {
   color: black;
   font-size: 26px;
   line-height: 1; }
+  .logo.logo.logo:before {
+    height: 47px;
+    width: 27px;
+    background-image: url(../img/AOK-logo.jpg);
+    background-size: contain; }
 
 .about {
   background-color: #FAFAFA;
   margin: 0;
   padding: 20px; }
   .about p {
-    font-size: 15px; }
+    font-size: 20px;
+    line-height: 1.2; }
 
 #askbar {
   margin-bottom: 25px; }
@@ -478,7 +486,7 @@ input.topbutton.submit {
   float: left;
   width: 100%;
   max-width: 600px;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-right: -288px;
   margin-bottom: 20px; }
   .content:after {
@@ -514,7 +522,7 @@ input.topbutton.submit {
   font-weight: bold;
   letter-spacing: -0.2px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   line-height: 22px;
   color: #1b75bb; }
 
@@ -527,26 +535,29 @@ input.topbutton.submit {
 .questionnumber {
   background-image: url(../img/bubble-bg.png);
   background-repeat: no-repeat;
-  color: white;
-  width: 50px;
-  height: 51px;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
   float: left;
   margin-right: 10px; }
 
-.questionnumber a {
-  display: block;
-  width: 50px;
-  height: 50px;
-  color: white; }
-
-.questionnumber a:hover {
-  color: #e4e4e4; }
-
 .questionnumber p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
-  line-height: 50px; }
+  line-height: 35px; }
+
+.questionnumber a {
+  display: block;
+  color: #e4e4e4; }
+
+.questionnumber a:hover {
+  color: white; }
+
+.commentheading {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px; }
 
 .questionmeta {
   color: #A4A4A4;
@@ -724,7 +735,8 @@ input.topbutton.submit {
 /*-----------------------------------------------------------------------------------*/
 .thumbs-rating-container {
   padding: 1em 0;
-  display: block; }
+  display: inline-block;
+  float: right; }
 
 .thumbs-rating-container span {
   cursor: pointer;
@@ -911,11 +923,8 @@ input.topbutton.submit {
   background-repeat: no-repeat;
   background-position: top 10px right 10px; }
 
-.commentheading {
-  float: left;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 15px; }
+#comments {
+  margin-top: 16px; }
 
 .leavecomment {
   font-size: 18px;
@@ -931,9 +940,8 @@ input.topbutton.submit {
   margin-bottom: 0px; }
 
 .commentstop {
-  margin-top: 40px;
   border-bottom: 3px solid #F7F7F7;
-  height: 60px;
+  height: 45px;
   padding-top: 10px; }
 
 .comment {
