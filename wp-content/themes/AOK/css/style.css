@@ -496,6 +496,9 @@ input.topbutton.submit {
     content: '';
     display: table;
     clear: both; }
+  .content p i {
+    font-size: 12px;
+    line-height: 1; }
 
 .date {
   margin-bottom: 20px;
@@ -525,7 +528,7 @@ input.topbutton.submit {
   font-weight: bold;
   letter-spacing: -0.2px;
   margin-top: 10px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   line-height: 22px;
   color: #1b75bb; }
 
