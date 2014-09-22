@@ -333,16 +333,19 @@ img.alignnone, .alignnone {
   color: black;
   font-size: 26px;
   line-height: 1; }
-  .logo.logo.logo:before {
-    height: 47px;
-    width: 27px;
-    background-image: url(../img/AOK-logo.jpg);
-    background-size: contain; }
+
+.logo-img {
+  background-image: url(../img/AOK-logo.jpg);
+  background-size: contain;
+  float: left;
+  margin: 3px 10px 0 0;
+  height: 47px;
+  width: 27px; }
 
 .about {
   background-color: #FAFAFA;
   margin: 0;
-  padding: 20px; }
+  padding: 25px; }
   .about p {
     font-size: 20px;
     line-height: 1.2; }

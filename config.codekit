@@ -5938,6 +5938,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/AOK\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/AOK\/edit-profile.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5983,6 +5992,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/AOK\/img\/AOK-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 571134,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/AOK-logo.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/AOK-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/AOK\/img\/bestanswer-button.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6016,61 +6036,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/AOK\/img\/facebook-button.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2480,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/facebook-button.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/facebook-button.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/themes\/AOK\/img\/logo-footer.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1051,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/logo-footer.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/logo-footer.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/themes\/AOK\/img\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8945,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/logo.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/themes\/AOK\/img\/minus-button.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 455,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/minus-button.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/minus-button.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/themes\/AOK\/img\/plus-button.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 454,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/plus-button.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/plus-button.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/wp-content\/themes\/AOK\/img\/star.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6093,17 +6058,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/AOK\/img\/twitter-button.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2336,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/twitter-button.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/twitter-button.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/wp-content\/themes\/AOK\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6119,28 +6073,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/js\/ie.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/js\/min\/ie-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
-	"\/wp-content\/themes\/AOK\/js\/menu.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/js\/menu.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/js\/min\/menu-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
-	"\/wp-content\/themes\/AOK\/js\/selectbox.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/AOK\/js\/selectbox.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/js\/min\/selectbox-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
