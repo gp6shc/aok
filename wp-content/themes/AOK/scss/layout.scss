@@ -46,23 +46,36 @@
 
 .video-wrapper {
 	position: relative;
-	padding-bottom: 42%;
-	padding-top: 25px;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
 	height: 0;
 	margin: 20px auto;
-	width: 80%;
-}
-.video-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.clear-background {
-    opacity: 0;
+	overflow: hidden;
 	
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+.clear-background {
+    opacity: 0;	
+}
+.calendar-wrapper {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+	
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 }
 /* Theme Layout */
 #container {
@@ -174,6 +187,7 @@
 	
 	a {
 		color: white;
+		display: block;
 		
 		&:hover, &:active, &:visited {
 			color: white;
@@ -308,6 +322,7 @@ input.topbutton.submit{
 	color: #222;
 }
 .question {
+	display: block;
 	margin-bottom: 20px;
 	max-width: 630px;
 	min-height: 64px;
@@ -454,6 +469,9 @@ input.topbutton.submit{
 .formtitle a:hover {
 	color: #777777;
 }
+.town-hall-events {
+	float: none;
+}
 
 /* Sidebar */
 #sidebar {
@@ -497,7 +515,6 @@ input.topbutton.submit{
 /* Footer */
 #footer {
 	height: 75px;
-	width: 960px;
 	margin: 0 auto;
 	clear: both;
 }
@@ -552,9 +569,14 @@ input.topbutton.submit{
 	margin-right:10px;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
 /* Thumbs Ratings Styles */
 /*-----------------------------------------------------------------------------------*/
+
+.thumbs {
+	margin-left: 15px;
+}
 
 .thumbs-rating-container{
 	padding:1em 0;
@@ -601,6 +623,7 @@ input.topbutton.submit{
 .thumbs-rating-container .thumbs-rating-already-voted{
 	padding-top: 1em;
 	font-size: 0.9em;
+	margin-right: 15px;	
 	display: none;
 
     transition: background 0.3s ease;
@@ -609,7 +632,6 @@ input.topbutton.submit{
 .thumbs-rating-container .thumbs-rating-already-voted:before{
 	content: attr(data-text);
 }
-
 .thumbvote {
 	display: inline;
 	padding: 0 6px 0 1px;

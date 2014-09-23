@@ -10,7 +10,7 @@ img {
  #container {
  width:740px;
 }
- #content {
+ .content {
 max-width:400px;
 }
  .searchinput {
@@ -54,6 +54,9 @@ max-width:400px;
 /*  Portrait Mobiles */
 
 @media only screen and (max-width: 767px) {
+ body{
+	 background-image: none;
+ }
  #container {
 /* width:290px;*/
  width: auto;
@@ -67,9 +70,10 @@ max-width:400px;
  .searchf {
  display:none;
 }
- #content {
+ .content {
  float: inherit;
  width:100%;
+ max-width: none;
 }
 h2.questiontitle {
  font-size: 14px;
@@ -81,6 +85,9 @@ h2.questiontitle {
 #bottom{
 	border: none;
 }
+ .question {
+	 max-width: none;
+ }
  .questionmeta li {
  display: none;
 }
@@ -101,9 +108,13 @@ h2.questiontitle {
 .about {
 	margin-top: 25px;
 }
+.thumbs-rating-container .thumbs-rating-already-voted {
+	font-size: 0.75em;
+	margin-right: 5px;
+}
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 344px) {
 #main-nav li {
 	padding: 0 7px;
 	
