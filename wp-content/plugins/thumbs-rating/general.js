@@ -54,7 +54,7 @@ function thumbs_rating_vote(ID, type, id)
 			
 			// Check the type
 			
-			if( type == 1){ thumbs_rating_class = ".thumbs-rating-up"; }
+			if( type === 1){ thumbs_rating_class = ".thumbs-rating-up"; }
 			else{ thumbs_rating_class = ".thumbs-rating-down";  }
 			
 			jQuery(new_container +  thumbs_rating_class ).addClass('thumbs-rating-voted');
@@ -64,7 +64,7 @@ function thumbs_rating_vote(ID, type, id)
 
 		// Display message if we detect LocalStorage
 		
-		jQuery('#thumbs-rating-' + ID + ' .thumbs-rating-already-voted').fadeIn().css('display', 'block');
+		jQuery('#thumbs-rating-' + ID + ' .thumbs-rating-already-voted').fadeIn().css('display', 'inline');
 		
 	}
 }

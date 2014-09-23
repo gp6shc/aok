@@ -17,25 +17,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 define('thumbs_rating_url', WP_PLUGIN_URL."/".dirname( plugin_basename( __FILE__ ) ) );
 define('thumbs_rating_path', WP_PLUGIN_DIR."/".dirname( plugin_basename( __FILE__ ) ) );
 
-
-/*-----------------------------------------------------------------------------------*/
-/* Init */
-/* Localization */
-/*-----------------------------------------------------------------------------------*/
-
-
-if  ( ! function_exists( 'thumbs_rating_init' ) ):
-
-	function thumbs_rating_init() {
-
-		load_plugin_textdomain( 'thumbs-rating', false, basename( dirname( __FILE__ ) ) . '/languages' );
-	}
-	add_action('plugins_loaded', 'thumbs_rating_init');
-
-endif;
-
-
-
 /*-----------------------------------------------------------------------------------*/
 /* Encue the Scripts for the Ajax call */
 /*-----------------------------------------------------------------------------------*/
@@ -44,8 +25,7 @@ if  ( ! function_exists( 'thumbs_rating_scripts' ) ):
 
 	function thumbs_rating_scripts()
 	{
-		wp_enqueue_script('thumbs_rating_scripts', thumbs_rating_url . '/js/general.js', array('jquery'), '4.0.1');
-		wp_localize_script( 'thumbs_rating_scripts', 'thumbs_rating_ajax', array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'nonce' => wp_create_nonce( 'thumbs-rating-nonce' ) ) );
+		wp_enqueue_script('thumbs_rating_scripts', thumbs_rating_url . '/general.min.js', array('jquery'), '4.0.1');
 	}
 	add_action('wp_enqueue_scripts', 'thumbs_rating_scripts');
 
@@ -76,9 +56,9 @@ if  ( ! function_exists( 'thumbs_rating_getlink' ) ):
 		$link_down = '<span id="thumbdown" class="thumbs-rating-down'. ( (isset($thumbs_rating_down_count) && intval($thumbs_rating_down_count) > 0 ) ? ' thumbs-rating-voted' : '' ) .'" onclick="thumbs_rating_vote(' . $post_ID . ', 2, this);" data-text="' . ' -"><p class="thumbvote">' . $thumbs_rating_down_count . '</p><i class="fa fa-thumbs-down"></i></span>';
 
 		$thumbs_rating_link = '<div  class="thumbs-rating-container" id="thumbs-rating-'.$post_ID.'" data-content-id="'.$post_ID.'">';
+		$thumbs_rating_link .= '<span class="thumbs-rating-already-voted" data-text="' . __('You have already voted!', 'thumbs-rating') . '"></span>';
 		$thumbs_rating_link .= $link_down;
 		$thumbs_rating_link .= $link_up;
-		$thumbs_rating_link .= '<span class="thumbs-rating-already-voted" data-text="' . __('You have already voted!', 'thumbs-rating') . '"></span>';
 		$thumbs_rating_link .= '</div>';
 
 		return $thumbs_rating_link;
