@@ -210,7 +210,11 @@ function wpanswers_fb_init()
 
                 wp_set_current_user($wpuserid);
 
-                wp_safe_redirect(home_url('/submit-idea'));
+                if( isset($_GET['p']) ) {
+					wp_safe_redirect( home_url('/?p='.$_GET['p']) );
+                }else{
+					wp_safe_redirect( home_url('/submit-idea') );
+				}
 
                 exit;
 
