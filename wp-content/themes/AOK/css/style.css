@@ -43,7 +43,7 @@ blockquote, q {
 
 /* Defaults */
 body {
-  font: "Open Sans", sans-serif, Arial;
+  font-family: "Open Sans", sans-serif, Arial;
   background-color: #4a525a;
   background-image: url("../img/bg.jpg");
   background-size: cover;
@@ -73,20 +73,19 @@ a, a:visited {
     color: #15598e; }
 
 input, textarea {
-  font: "Open Sans", sans-serif, Arial;
+  font-family: "Open Sans", sans-serif, Arial;
   height: 28px;
   line-height: 28px;
   font-size: 18px;
   width: 100%;
   background: #fff;
-  color: #5d5c5c;
+  color: #363636;
   border: 1px solid #E4E4E4;
   padding: 5px;
   border-radius: 5px; }
 
 input:hover, textarea:hover {
-  border: 1px solid #CCCCCC;
-  color: #909090; }
+  border: 1px solid #CCCCCC; }
 
 input:focus, textarea:focus {
   border: 1px solid #BBD3FF;
@@ -332,9 +331,7 @@ img.alignnone, .alignnone {
 #header {
   padding-top: 35px;
   margin-bottom: 5px;
-  position: relative;
-  border-top: 5px solid #1b75bb;
-  border-bottom: 1px solid #FAFAFA; }
+  position: relative; }
   #header:after {
     content: '';
     display: table;
@@ -593,6 +590,8 @@ input.topbutton.submit {
   list-style-type: none;
   display: inline;
   margin-right: 20px; }
+  .questionmeta li span {
+    margin-left: 10px; }
 
 .avatar {
   margin-top: 3px; }
@@ -808,6 +807,9 @@ input.topbutton.submit {
 .title {
   text-align: center;
   font-size: 26px; }
+
+.error {
+  color: #c84848; }
 
 /* Navigation */
 #navbar select {

@@ -94,8 +94,6 @@
 	padding-top: 35px;
 	margin-bottom: 5px;
 	position: relative;
-	border-top: 5px solid $brand-main;
-	border-bottom: 1px solid $brand-offset;
 	
 	&:after {
 		content: '';
@@ -396,6 +394,10 @@ input.topbutton.submit{
 	list-style-type: none;
 	display: inline;
 	margin-right:20px;
+	
+	span {
+		margin-left: 10px;
+	}
 }
 .avatar{
 	margin-top: 3px;
@@ -639,4 +641,7 @@ input.topbutton.submit{
 .title {
 	text-align: center;
 	font-size: 26px;
+}
+.error {
+	color: $brand-accent;
 }

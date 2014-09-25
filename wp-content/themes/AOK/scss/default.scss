@@ -1,6 +1,6 @@
 /* Defaults */
 body {
-	font: $font_main;
+	font-family: $font_main;
 	background-color: #4a525a;
 	background-image: url('../img/bg.jpg');
 	background-size: cover;
@@ -32,13 +32,13 @@ a, a:visited {
 	}
 }
 input, textarea {
-	font: $font_main;
+	font-family: $font_main;
 	height: 28px;
 	line-height: 28px;
 	font-size: 18px;
 	width: 100%;
 	background: #fff;
-	color: #5d5c5c;
+	color: #363636;
 	border: 1px solid #E4E4E4;
 	padding:5px;
 	-webkit-border-radius: 5px;
@@ -47,7 +47,6 @@ input, textarea {
 }
 input:hover, textarea:hover {
 	border: 1px solid #CCCCCC;
-	color:#909090;
 }
 input:focus, textarea:focus {
 	border: 1px solid #BBD3FF;
