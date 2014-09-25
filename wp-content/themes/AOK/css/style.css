@@ -268,8 +268,7 @@ img.alignnone, .alignnone {
   background: white;
   width: 60%;
   margin: 0 auto;
-  min-height: 300px;
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 45px;
   cursor: default; }
   .modal .modal-box .fa-times {
@@ -1400,7 +1399,7 @@ img {
 
   .question {
     max-width: none; } }
-@media only screen and (max-width: 627px) {
+@media only screen and (max-width: 665px) {
   #main-nav li {
     padding: 0 6px; }
     #main-nav li a {
