@@ -819,6 +819,10 @@ input.topbutton.submit {
   height: 32px;
   margin: 0 auto;
   z-index: 9; }
+  #navbar:after {
+    content: '';
+    display: table;
+    clear: both; }
 
 #main-nav {
   height: 32px;
@@ -830,6 +834,10 @@ input.topbutton.submit {
   margin: 0;
   padding: 0;
   /* only needed if you have not done a CSS reset */ }
+  #main-nav ul:after {
+    content: '';
+    display: table;
+    clear: both; }
 
 #main-nav li {
   display: block;
@@ -839,28 +847,25 @@ input.topbutton.submit {
   height: 32px;
   /* this should be the same as your #main-nav height */
   margin-right: 2px;
-  padding: 0 15px;
   position: relative;
-  /* this is needed in order to position sub menus */
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  box-shadow: -3px -3px 5px 0 rgba(0, 0, 0, 0.3); }
+  /* this is needed in order to position sub menus */ }
 
 #main-nav li a {
   display: block;
   height: 32px;
   line-height: 32px;
-  padding: 0;
-  border: 0px;
-  color: #222;
+  padding: 0 15px;
+  background: #1b75bb;
+  border-bottom: 2px solid #0e3d62;
+  color: white;
   font-size: 18px; }
   #main-nav li a:hover {
-    border-bottom: 2px solid #1b75bb; }
+    background-color: #15598e;
+    border-bottom: 2px solid #0e3d62; }
 
-#main-nav .current-menu-item, #main-nav .current_page_item {
-  box-shadow: -3px -3px 3px 1px rgba(0, 0, 0, 0.3); }
-  #main-nav .current-menu-item a, #main-nav .current_page_item a {
-    border-bottom: 2px solid #1b75bb; }
+#main-nav .current-menu-item a, #main-nav .current_page_item a {
+  background-color: #c84848;
+  border-bottom-color: #aa3333; }
 
 #main-nav ul ul a {
   color: #CACACA; }
@@ -1392,7 +1397,8 @@ img {
     max-width: none; }
 
   h2.questiontitle {
-    font-size: 14px; }
+    font-size: 20px;
+    margin-top: 15px; }
 
   #sidebar {
     width: 100%;
@@ -1404,10 +1410,9 @@ img {
   .question {
     max-width: none; } }
 @media only screen and (max-width: 665px) {
-  #main-nav li {
-    padding: 0 6px; }
-    #main-nav li a {
-      font-size: 15px; }
+  #main-nav li a {
+    padding: 0 6px;
+    font-size: 15px; }
 
   .about {
     margin-top: 25px; }
@@ -1415,11 +1420,16 @@ img {
   .thumbs-rating-container .thumbs-rating-already-voted {
     font-size: 0.75em;
     margin-right: 5px; } }
+@media only screen and (max-width: 560px) {
+  #navbar {
+    clear: both;
+    float: none; }
+
+  .logo {
+    margin-bottom: 15px; } }
 @media only screen and (max-width: 344px) {
-  #main-nav li {
-    padding: 0 7px; }
-    #main-nav li a {
-      font-size: 13px; }
+  #main-nav li a {
+    font-size: 13px; }
 
   #sidebar {
     clear: both; } }

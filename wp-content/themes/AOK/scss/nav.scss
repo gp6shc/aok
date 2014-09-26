@@ -7,6 +7,13 @@
 	height:32px;
 	margin:0 auto;
 	z-index:9;
+	
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
 }
 #main-nav {
 	height: 32px; /* set to the height you want your menu to be */
@@ -16,6 +23,12 @@
 #main-nav ul {
 	margin: 0;
 	padding: 0; /* only needed if you have not done a CSS reset */
+
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
 }
 #main-nav li {
 	display: block;
@@ -23,33 +36,28 @@
 	line-height: 32px; /* this should be the same as your #main-nav height */
 	height: 32px; /* this should be the same as your #main-nav height */
 	margin-right: 2px;
-	padding: 0 15px; 
 	position: relative; /* this is needed in order to position sub menus */
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-	box-shadow: -3px -3px 5px 0 rgba(#000, 0.3);
 	
 }
 #main-nav li a {
 	display: block;
 	height: 32px;
 	line-height: 32px;
-	padding: 0;
-	border:0px;
-	color:#222;
+	padding: 0 15px; 
+	background: $brand_main;
+	border-bottom: 2px solid darken($brand_main, 20%);	
+	color: white;
 	font-size: 18px;
 	
 	&:hover{
-		border-bottom: 2px solid $brand-main;
-		
+		background-color: darken($brand_main, 10%);
+		border-bottom: 2px solid darken($brand_main, 20%);
 	}
 }
-#main-nav .current-menu-item, #main-nav .current_page_item, {
-	box-shadow: -3px -3px 3px 1px rgba(#000, 0.3);
+#main-nav .current-menu-item a, #main-nav .current_page_item a {
+	background-color: $brand_accent;
+	border-bottom-color: darken($brand_accent, 10%);
 		
-	a {
-		border-bottom: 2px solid $brand-main;
-	}
 }
 #main-nav ul ul a {
 	color: #CACACA;
