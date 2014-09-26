@@ -340,7 +340,8 @@ img.alignnone, .alignnone {
   float: left;
   color: black;
   font-size: 26px;
-  line-height: 1; }
+  line-height: 1;
+  zoom: 1.2; }
 
 .logo-img {
   background-image: url(../img/AOK-logo.jpg);
@@ -411,7 +412,8 @@ img.alignnone, .alignnone {
       color: white; }
 
 input.topbutton.submit {
-  width: 100%; }
+  width: 100%;
+  -webkit-appearance: none; }
   input.topbutton.submit:hover, input.topbutton.submit:active, input.topbutton.submit:visited {
     color: white; }
 
@@ -856,7 +858,7 @@ input.topbutton.submit {
   line-height: 32px;
   padding: 0 15px;
   background: #1b75bb;
-  border-bottom: 2px solid #0e3d62;
+  border-bottom: 2px solid #15598e;
   color: white;
   font-size: 18px; }
   #main-nav li a:hover {
@@ -1309,21 +1311,26 @@ a.comment-reply-link:active {
   max-width: 625px; }
 
 .pagination span, .pagination a {
-  display: block;
-  float: left;
+  display: inline-block;
   margin: 2px 2px 2px 0;
   padding: 6px 9px 5px 9px;
   text-decoration: none;
-  width: auto;
   color: #444;
-  border: 1px solid #EDEDED;
-  border-radius: 15px; }
+  border: 1px solid #a3a3a3;
+  font-size: 20px;
+  height: 25px;
+  line-height: 25px;
+  width: 25px;
+  text-align: center;
+  -webkit-transition: background-color 0.3s ease, border 0.2s ease-in;
+          transition: background-color 0.3s ease, border 0.2s ease-in; }
 
 .pagination a:hover {
   background: #24221D;
   color: #fff;
   text-decoration: none;
-  border: 1px solid #24221D; }
+  border: none;
+  border: 1px solid black; }
 
 .pagination a:visited {
   text-decoration: none; }
@@ -1409,7 +1416,7 @@ img {
 
   .question {
     max-width: none; } }
-@media only screen and (max-width: 665px) {
+@media only screen and (max-width: 707px) {
   #main-nav li a {
     padding: 0 6px;
     font-size: 15px; }

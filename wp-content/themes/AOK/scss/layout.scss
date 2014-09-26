@@ -106,6 +106,7 @@
 	color: black;
 	font-size: 26px;
 	line-height: 1;
+	zoom: 1.2;
 }
 .logo-img {
 	background-image: url(../img/AOK-logo.jpg);
@@ -195,6 +196,7 @@
 }
 input.topbutton.submit{
 	width: 100%;
+	-webkit-appearance: none;
 	
 	&:hover, &:active, &:visited {
 		color: white;
