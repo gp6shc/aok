@@ -257,7 +257,7 @@ img.alignnone, .alignnone {
   display: none;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.8);
   opacity: 1;
   -webkit-transition: opacity 0.5s ease;
           transition: opacity 0.5s ease;
@@ -268,7 +268,7 @@ img.alignnone, .alignnone {
   background: white;
   width: 60%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 65px;
   padding: 45px;
   cursor: default; }
   .modal .modal-box .fa-times {
@@ -1407,8 +1407,7 @@ img {
   #main-nav li {
     padding: 0 6px; }
     #main-nav li a {
-      font-size: 15px;
-      border-bottom: 2px solid #1b75bb; }
+      font-size: 15px; }
 
   .about {
     margin-top: 25px; }
