@@ -57,6 +57,11 @@
 #main-nav .current-menu-item a, #main-nav .current_page_item a {
 	background-color: $brand_accent;
 	border-bottom-color: darken($brand_accent, 10%);
+	
+	&:hover {
+		background-color: darken($brand_accent, 10%);
+		border-bottom: 2px solid darken($brand_accent, 20%);
+	}
 		
 }
 #main-nav ul ul a {
