@@ -115,6 +115,12 @@
 	margin: 3px 10px 0 0;
 	height: 47px;
 	width: 27px;
+	transition: all 0.7s ease 5s;
+		
+		&:hover {
+			transform: rotate(360deg);
+			
+		}
 }
 .about {
 	background-color: $brand_offset;

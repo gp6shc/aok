@@ -349,7 +349,13 @@ img.alignnone, .alignnone {
   float: left;
   margin: 3px 10px 0 0;
   height: 47px;
-  width: 27px; }
+  width: 27px;
+  -webkit-transition: all 0.7s ease 5s;
+          transition: all 0.7s ease 5s; }
+  .logo-img:hover {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg); }
 
 .about {
   background-color: #FAFAFA;
