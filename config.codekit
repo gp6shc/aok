@@ -4004,7 +4004,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-answers-plugin\/images\/icon-adminmenu16-sprite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/plugins\/wp-answers-plugin\/images\/icon-adminmenu16-sprite_2x.png": {
 		"fileType": 32768,
@@ -4015,7 +4015,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-answers-plugin\/images\/icon-adminmenu16-sprite_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/plugins\/wp-answers-plugin\/images\/icon-adminpage32.png": {
 		"fileType": 32768,
@@ -4026,7 +4026,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-answers-plugin\/images\/icon-adminpage32.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/plugins\/wp-answers-plugin\/images\/icon-adminpage32_2x.png": {
 		"fileType": 32768,
@@ -4037,7 +4037,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-answers-plugin\/images\/icon-adminpage32_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/plugins\/wp-answers-plugin\/includes\/admin\/admin.php": {
 		"fileType": 8192,
@@ -6001,7 +6001,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/AOK-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/AOK\/img\/bestanswer-button.png": {
 		"fileType": 32768,
@@ -6012,7 +6012,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/bestanswer-button.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/AOK\/img\/bg.jpg": {
 		"fileType": 16384,
@@ -6023,7 +6023,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/AOK\/img\/bg.png": {
 		"fileType": 32768,
@@ -6045,7 +6045,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/bubble-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/AOK\/img\/star.png": {
 		"fileType": 32768,
@@ -6056,7 +6056,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/star.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/AOK\/img\/stripe-bg.png": {
 		"fileType": 32768,
@@ -6067,7 +6067,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/AOK\/img\/stripe-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/AOK\/index.php": {
 		"fileType": 8192,
@@ -6510,7 +6510,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-1024x704.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/em-coast-150x150.jpg": {
 		"fileType": 16384,
@@ -6521,7 +6521,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-150x150.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/em-coast-300x206.jpg": {
 		"fileType": 16384,
@@ -6532,7 +6532,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast-300x206.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/em-coast.jpg": {
 		"fileType": 16384,
@@ -6543,7 +6543,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/em-coast.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/emerald-coast-150x150.jpg": {
 		"fileType": 16384,
@@ -6554,7 +6554,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast-150x150.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/emerald-coast-300x240.jpg": {
 		"fileType": 16384,
@@ -6565,7 +6565,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast-300x240.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/emerald-coast.jpg": {
 		"fileType": 16384,
@@ -6576,7 +6576,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/emerald-coast.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/Screen-Shot-2014-09-19-at-2.04.57-PM-150x150.png": {
 		"fileType": 32768,
@@ -6587,7 +6587,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Screen-Shot-2014-09-19-at-2.04.57-PM-150x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/Screen-Shot-2014-09-19-at-2.04.57-PM-300x209.png": {
 		"fileType": 32768,
@@ -6598,7 +6598,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Screen-Shot-2014-09-19-at-2.04.57-PM-300x209.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/uploads\/2014\/09\/Screen-Shot-2014-09-19-at-2.04.57-PM.png": {
 		"fileType": 32768,
@@ -6609,18 +6609,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Screen-Shot-2014-09-19-at-2.04.57-PM.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/upfw\/aok_logo_green_draftv1_1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9236,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/upfw\/aok_logo_green_draftv1_1.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/upfw\/aok_logo_green_draftv1_1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-cron.php": {
 		"fileType": 8192,
@@ -11387,7 +11376,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "aok",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_yellow"
+	"iconImageName": "\/wp-content\/themes\/AOK\/img\/AOK-logo.jpg"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
