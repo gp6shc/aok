@@ -353,8 +353,6 @@ if  ( ! function_exists( 'thumbs_rating_top_func' ) ):
 
 				$return .= '<li>';
 
-				$return .= '<a href="' . get_permalink() . '">' . get_the_title() . '</a>';
-
 				if( $show_votes == "yes" ){
 
 					// Get the votes
@@ -363,7 +361,7 @@ if  ( ! function_exists( 'thumbs_rating_top_func' ) ):
 
 					// Add the votes to the HTML
 
-						$return .= ' (' . $sign;
+						$return .= '<span class="cat-count">+';
 
 						if( sizeof($meta_values) > 0){
 
@@ -392,9 +390,11 @@ if  ( ! function_exists( 'thumbs_rating_top_func' ) ):
 							}
 						}
 
-						$return .= ')';
+						$return .= '</span>';
 
 					}
+					
+					$return .= '<a href="' . get_permalink() . '">' . get_the_title() . '</a>';
 				}
 
 				$return .= '</li>';
