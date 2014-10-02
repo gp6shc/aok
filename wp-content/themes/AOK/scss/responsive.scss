@@ -54,9 +54,6 @@ max-width:400px;
 /*  Portrait Mobiles */
 
 @media only screen and (max-width: 767px) {
- body{
-	 background-image: none;
- }
  #container {
 /* width:290px;*/
  width: auto;
@@ -92,9 +89,11 @@ h2.questiontitle {
 }
 
 @media only screen and (max-width: 707px) {
-#header {
-	
+body {
+	background-image: none;
+	margin-bottom: 0;
 }
+
 #main-nav li a{
 	padding: 0 6px;
 	font-size: 15px;
@@ -117,6 +116,16 @@ h2.questiontitle {
 	.logo {
 		margin-bottom: 15px;
 	}
+	.modal {
+	    background-color: rgba(0,0,0,0.8);
+	
+		.modal-box {
+			width: 80%;
+			margin-top: 70px;
+			padding: 20px;
+		}
+	}
+	
 }
 
 @media only screen and (max-width: 344px) {
