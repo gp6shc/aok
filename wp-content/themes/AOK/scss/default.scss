@@ -5,12 +5,14 @@ body {
 	background-image: url('../img/bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: #3d3d3d;
 	line-height: 18px;
 	overflow-x: hidden;
 	position: relative;
 	z-index: 1;
 	min-width: 320px;
+	margin-bottom: 95vh
 }
 
 body.page.page-template-page-full-width-php .content, body.single.single-post .content, body.page.page-template-blog-php .content{
