@@ -6,7 +6,6 @@
 
 <div class="content">
 
-
 <?php while ( have_posts() ) : the_post() ?>
 <h2 class="date"><?php the_date('','<p>','</p>'); ?></h2>   
 
@@ -43,6 +42,7 @@
 <?php //wp_reset_query(); ?>
 
 </div><!-- End Content -->
-<?php wpanswers_pagination(); ?>
 <?php get_sidebar('Questions'); ?>
+
+<?php wpanswers_pagination(); ?>
 <?php get_footer(); ?>
