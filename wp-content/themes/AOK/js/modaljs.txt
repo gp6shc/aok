@@ -1,0 +1,41 @@
+	var modal =	document.getElementById('modal');
+	var modalBox = document.getElementById('modal-box');
+	var modalX = document.getElementById('modal-x');
+	//var videoWrapper = document.getElementById('video-wrapper');
+	
+	function removeModal() {
+	    modal.className += ' clear-background';
+	    setTimeout(function() {
+	    	modal.parentNode.removeChild(modal);
+	    }, 500);
+	}
+	
+	var isIE =  /*@cc_on (function() {switch(@_jscript_version) {case 1.0: return 3; case 3.0: return 4; case 5.0: return 5; case 5.1: return 5; case 5.5: return 5.5; case 5.6: return 6; case 5.7: return 7; case 5.8: return 8; case 9: return 9; case 10: return 10;}})() || @*/ 0;
+	
+	if( isIE >= 9 || isIE === 0 ) {
+		if (document.cookie.replace(/(?:(?:^|.*;\s*)hasDisplayedModal\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+			//videoWrapper.innerHTML = '<iframe id="yt-video" src="http://www.youtube.com/embed/iNJdPyoqt8U?rel=0&showinfo=0&modestbranding=1&theme=light&autohide=1&enablejsapi=1" frameborder="0" allowfullscreen></iframe>';
+					
+			document.cookie = "hasDisplayedModal=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+			
+			modal.style.display = "block";
+			
+			modal.addEventListener('click', function() {
+				removeModal();
+				//videoWrapper.firstChild.stopVideo();
+			}, false);
+			
+			modalX.addEventListener('click', function() {
+				removeModal();
+				//videoWrapper.firstChild.stopVideo();
+			}, false);
+			
+			modalBox.addEventListener('click', function(event) {
+				event.stopPropagation();
+			}, false);
+			
+			
+		}else{
+			removeModal();
+		}
+	}
